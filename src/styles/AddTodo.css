@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.textEntry {
+  width: 50%;
+  margin: 2% auto;
+  color: #4fbfa8;
+  border-color: #4fbfa8;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.button {
+  width: 20%;
+  margin: 2% auto;
+  color: #4fbfa8;
+  background-color: #ffffff;
+  border-color: #4fbfa8;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.button:hover,
+.button:active,
+.button:focus,
+.button.active {
+  background: #4fbfa8;
+  color: #ffffff;
+  border-color: #4fbfa8;
+}
